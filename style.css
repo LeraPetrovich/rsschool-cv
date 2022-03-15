@@ -243,4 +243,12 @@ pre {
     height: 350px;
     width: 700px;
     margin: 30px 40px;
+    
+}
+.mypr:hover{
+    border: 5px solid white;
+}
+.liimg{
+    border: 2px solid gray;
+    margin: 20px 0px;
 }
