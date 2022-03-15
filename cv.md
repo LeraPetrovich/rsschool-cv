@@ -54,3 +54,16 @@ System.out.println();
 }}}
 
 ```
+
+***
+
+#### Education :
+
+Graduated from the Mozyr State Regional Lyceum in 2020. At the moment I am a second-year student of the Faculty of Radiophysics and Computer Technology. I finished the zero stage of learning JavaScript on the rs school website. Now I continue to improve my frontend knowledge level.
+
+***
+
+#### Languages:
+- Russian *(native)*
+- Belarusian *(native)*
+- English *(A2)*
