@@ -12,28 +12,25 @@
 </head>
 <body>
   <header>
-      <div class="section">
-          <nav>
-              <div class="burger">
-                  <input type="checkbox" id="menu" />
-                  <label class="menu-button" for="menu" >
-                      <span></span>
-                  </label>
-  <nav class="heder_nav">
-      <ul class="menu-box">
-          <li><a href="#Briefly About Myself" class="menu_item">About Myself</a></li>
-          <li><a href="#Code example" class="menu_item">Skills and Proficiency</a></li>
-          <li><a href="#Code example" class="menu_item">Code example</a></li>
+    <div class="container header__container">
+        <div class="menu-burger__header">
+            <span></span>
+        </div>
+        <nav class="header__nav">
+            <ul class="menu header__menu">
+                <li><a href="#Myself" class="menu_item">About Myself</a></li>
+          <li><a href="#Skills" class="menu_item">Skills and Proficiency</a></li>
+          <li><a href="#Code" class="menu_item">Code example</a></li>
           <li><a href="#Education" class="menu_item">Education </a></li>
           <li><a href="#Languages" class="menu_item">Languages</a></li>
-          <li><a href="#Contact information" class="menu_item">Contact information</a></li>
-      </ul>
-  </nav>
-</div>
+          <li><a href="#Contact" class="menu_item">Contact information</a></li>
+            </ul>
+        </nav>
+    </div>
 <h1 class="center" align="center" >CV Petrovich Valeria</h1>
     <img src="./nebo-oblaka-ozero-skala-kamni-trava.jpg" class="photo" > 
 </header>
-<h2 class="title"> Briefly About Myself</h2>
+<h2 class="title" id="Myself"> Briefly About Myself</h2>
     <article>
     <p>Hello, I'm Valeria
         At the moment I am a 2nd-year student of the BSU Faculty of Radiophysics and Computer Technology. In the first year I studied the basics of C++. After studying C++, I became interested in web development.
@@ -44,14 +41,14 @@
     Skills and Proficiency:
 </h2>
 <p>
-    <ul class="skills">
+    <ul class="skills" id="Skills">
         <li>C++</li>
         <li>Java</li>
     </ul>
 </p>
 </article>
 <article>
-  <h2 class="title3"> Code example</h2>
+  <h2 class="title3" id="Code"> Code example</h2>
   <p>Task: The input numbers are n and m. Print the multiplication table n * m</p>
   <pre><code class="code">
       import java.util.Scanner;
@@ -80,13 +77,13 @@ System.out.println();
 
 </article>
 <article>
-  <h2 class="title4">Education</h2>
+  <h2 class="title4" id="Education">Education</h2>
   <p class="education">Graduated from the Mozyr State Regional Lyceum in 2020. Also this year she entered the Faculty of Radiophysics and Computer Technology.
       Now I am studying frontend at RS school.</p>
 
 </article>
 <article>
-  <h2 class="title5">Languages</h2>
+  <h2 class="title5" id="Languages">Languages</h2>
   <p>
       <ul class="language">
           <li>Russian(native)</li>
@@ -97,7 +94,7 @@ System.out.println();
 
 </article>
 <article>
-  <h1 class="title6">Contact information</h1>
+  <h1 class="title6" id="Contact">Contact information</h1>
   <ul class="contact">
       <li><a href="https://github.com/lerapetrovich">GITHUB</a></li>
       <li><a href="https://instagram.com/leradymaet?utm_medium=copy_link">Instagram</a></li>
