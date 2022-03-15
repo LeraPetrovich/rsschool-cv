@@ -262,20 +262,20 @@
     padding: 80px 0;
     list-style: none;
     text-align: center;
-    background-color: #ECEFF1;
+    background-color: rgb(243, 240, 240);
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   }
   .menu__item {
     display: block;
     padding: 12px 24px;
-    color: #333;
-    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-family: 'PT Sans Caption', sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
   }
   .menu__item:hover {
-    background-color: #CFD8DC;
+    color: #CFD8DC;
   }
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
