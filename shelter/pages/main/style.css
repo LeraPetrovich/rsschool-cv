@@ -67,9 +67,9 @@
     
     position: absolute;
     width: 184px;
-    height: 35px;
+    height: 60px;
     left: 0px;
-    top: calc(50% - 35px/2 - 12.5px);
+    top: 0px;
       
   }
   .logotitle{
@@ -78,14 +78,9 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 110%;
-    /* or 35px */
-    
     display: flex;
     align-items: center;
     letter-spacing: 0.06em;
-    
-    /* color-primary */
-    
     color: #F1CDB3; 
   }
  .puppy{
@@ -213,18 +208,7 @@
       padding-top: 80px;
     }
   }
-  
-  .h3 {
-    color: var(--white);
-    text-align: center;
-    font-family: Inter, sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 40px;
-    margin-block-start: unset;
-    margin-block-end: unset;
-    padding: 20px;
-  }
+
   
   @media (max-width: 991px) {
     h3 {
@@ -247,18 +231,20 @@
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    margin-left: auto;
+    margin-left: 700px;
     margin-block-start: unset;
     margin-block-end: unset;
     gap: 30px;
     padding-right: 30px;
     padding-left: 31px;
+    
   }
   
   @media (max-width: 991px) {
     .nav-list {
-      gap: 16px;
+      gap: 10px;
       right: -100%;
+      left: 0%;
       padding-top: 134px;
       position: absolute;
       top: 0;
@@ -452,6 +438,87 @@ height: 27px;
     }
   }
   
+  .about{
+    position: absolute;
+    height: 588px;
+    left: 0%;
+    right: 0%;
+    top: 908px;
+    background: #FFFFFF;
+  }
+  .About-content{
+    position: absolute;
+    width: 1200px;
+    height: 408px;
+    left: calc(50% - 1200px/2);
+    top: calc(50% - 408px/2 - 10px);
+  }
+  .about-pets{
+    position: absolute;
+    width: 300px;
+    height: 408px;
+    left: 175px;
+    top: 0px;
+    
+    background: url(about-pets.png);
+  }
+  .conetnt{
+    position: absolute;
+    width: 430px;
+    height: 380px;
+    left: 595px;
+    top: 14px;
+  }
+  .Heading{
+    position: absolute;
+    width: 370px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+  }
+  h3{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+     color: #545454;
+  }
+  .Subheading{
+    position: absolute;
+    width: 430px;
+    height: 96px;
+    left: 0px;
+    top: 115px;
+  }
+  .paragraph-l{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+  }
+  .Subheading2{
+    position: absolute;
+    width: 430px;
+    height: 144px;
+    left: 0px;
+    top: 236px;
+  }
+  .paragraph-2{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #4C4C4C;
+  }
   .button-gold {
     width: 207px;
     height: 52px;
