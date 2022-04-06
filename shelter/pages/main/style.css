@@ -485,7 +485,7 @@ height: 27px;
     left: 0px;
     top: 0px;
   }
-  h3{
+  .h3Abb{
     font-family: 'Georgia';
     font-style: normal;
     font-weight: 400;
@@ -556,6 +556,20 @@ height: 27px;
     left: 400px;
     top: 0px;
   }
+  .h3Heigt{font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    
+    /* color-dark-l */
+    
+    color: #545454;}
   .Slider{
     position: absolute;
     width: 1200px;
@@ -729,6 +743,320 @@ border-radius: 100px;
 }
 
  
+
+
+
+
+
+.Help{
+  position: absolute;
+height: 611px;
+left: 0%;
+right: 0%;
+top: 2373px;
+
+/* color-light-xl */
+
+background: #FFFFFF;
+}
+.Help-content{
+  position: absolute;
+width: 1200px;
+height: 431px;
+left: calc(50% - 1200px/2);
+top: 80px;
+}
+.Heading{
+  position: absolute;
+width: 308px;
+height: 90px;
+left: 446px;
+top: 0px;
+}
+.helph3{
+  font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+/* or 45px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+/* color-dark-l */
+
+color: #545454;
+}
+.List{
+  position: absolute;
+width: 1026px;
+height: 281px;
+left: 87px;
+top: 150px;
+}
+.food{
+  position: absolute;
+width: 82px;
+height: 113px;
+left: 0px;
+top: 0px;
+}
+.icon-pet-food{
+  position: absolute;
+width: 60px;
+height: 60px;
+left: 11px;
+top: 0px;
+
+}
+.Vector {
+  position: absolute;
+left: 10.12%;
+right: 10.12%;
+top: 0%;
+bottom: 0%;
+background: url(Vector.svg);
+}
+.Text{
+  position: absolute;
+width: 82px;
+height: 23px;
+left: 0px;
+top: 90px;
+}
+h4{
+  font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+/* identical to box height, or 23px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+/* color-dark-l */
+
+color: #545454;
+
+}
+.Transportation{
+  position: absolute;
+width: 150px;
+height: 113px;
+left: 202px;
+top: 0px;
+}
+.icon-transportation{
+  position: absolute;
+width: 60px;
+height: 60px;
+left: calc(50% - 60px/2 - 236px);
+top: 0px;
+
+}
+.transportation{
+  position: absolute;
+width: 59.95px;
+height: 60px;
+left: calc(50% - 59.95px/2 - 0.05px);
+top: calc(50% - 60px/2);
+background: url(/assets/icons/transportation.svg);
+}
+.Text2{
+  position: absolute;
+  width: 150px;
+  height: 23px;
+  left: 202px;
+  top: 90px;
+}
+.text4{
+  font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+/* identical to box height, or 23px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+/* color-dark-l */
+
+color: #545454;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Donation{
+  position: absolute;
+height: 462px;
+left: 0%;
+right: 0%;
+top: 2984px;
+
+/* color-light-l */
+
+background: #F6F6F6;
+}
+.Donation-content{
+  position: absolute;
+width: 915px;
+height: 282px;
+left: calc(50% - 915px/2 + 0.5px);
+top: 80px;
+}
+.donation-dog{
+  position: absolute;
+width: 505px;
+height: 261px;
+left: 0px;
+top: 11px;
+
+background: url(/assets/images/donation-dog.png);
+}
+.Contentdog{
+  position: absolute;
+width: 380px;
+height: 282px;
+left: 535px;
+top: 0px;
+}
+.Heading{
+  position: absolute;
+width: 300px;
+height: 90px;
+left: 0px;
+top: 0px;
+}
+.textDonat{
+  font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+color: #545454;
+}
+.Subheadingdonat{
+  position: absolute;
+  width: 307px;
+  height: 17px;
+  left: 0px;
+  top: 110px;
+  
+}
+.donatH5{
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  /* identical to box height, or 17px */
+  
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  
+  /* color-dark-l */
+  
+  color: #545454;
+  
+}
+.Credit{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 15px;
+  position: absolute;
+  width: 349px;
+  height: 39px;
+  left: 0px;
+  top: 167px;
+   background: #F1CDB3;
+  border-radius: 9px;
+}
+.credit-card-content{
+  position: static;
+width: 319px;
+height: 23px;
+left: 15px;
+top: 10px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+.credit-card{
+  position: absolute;
+width: 30px;
+height: 23px;
+left: 15px;
+top: 10px;
+background: url(/assets/icons/credit-card.svg);
+}
+.number{
+  position: absolute;
+width: 274px;
+height: 23px;
+left: 60px;
+top: -7px;
+
+/* h4 */
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+/* identical to box height, or 23px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+
+/* color-dark-l */
+
+color: #545454;
+}
+.textforredir{
+  position: absolute;
+width: 380px;
+height: 72px;
+left: 0px;
+top: 220px;
+}
+.donation-description{
+  font-family: 'Arial';
+font-style: italic;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+align-items: center;
+color: #B2B2B2;
+}
 
 
 
