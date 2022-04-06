@@ -649,7 +649,7 @@ background-color: #fff;
 }
 .button_primary:hover{
     border: 2px solid #FFFFFF;
-    background-color: #CDCDCD;
+    background-color: #F1CDB3;
 }
 
 .card2{
@@ -707,8 +707,30 @@ bottom: 37.93%;
 background: url(pets-woody.png);
 border-radius: 9px 9px 0px 0px;
 }
+.button_primary3{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 45px;
+
+position: absolute;
+width: 261px;
+height: 52px;
+left: 470px;
+top: 645px;
+
+/* color-primary */
+
+background: #F1CDB3;
+border-radius: 100px;
+}
+.button_primary3:hover{
+    background:#CDCDCD;
+}
 
  
+
+
 
 
 
@@ -730,10 +752,10 @@ border-radius: 9px 9px 0px 0px;
   }
   
   .button-gold:hover {
-    color: var(--white);
+    background-color: #fff;
   }
   .button-gold:active {
-    background: linear-gradient(var(--gold), var(--white)) var(--gold);
+    background:#FFFFFF;
   }
   
   .button-port {
