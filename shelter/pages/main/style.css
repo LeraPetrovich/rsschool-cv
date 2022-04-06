@@ -438,6 +438,15 @@ height: 27px;
     }
   }
   
+
+
+
+
+
+
+
+
+
   .about{
     position: absolute;
     height: 588px;
@@ -519,6 +528,190 @@ height: 27px;
     align-items: center;
     color: #4C4C4C;
   }
+
+
+
+
+
+
+  .Pets{
+    position: absolute;
+    height: 877px;
+    left: 0%;
+    right: 0%;
+    top: 1496px;
+    background: #F6F6F6;
+  }
+  .Pets-content{
+    position: absolute;
+    width: 1200px;
+    height: 697px;
+    left: calc(50% - 1200px/2);
+    top: 80px;
+  }
+  .Heading2{
+    position: absolute;
+    width: 400px;
+    height: 90px;
+    left: 400px;
+    top: 0px;
+  }
+  .Slider{
+    position: absolute;
+    width: 1200px;
+    height: 435px;
+    left: 0px;
+    top: 150px;
+  }
+  .card{
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: 105px;
+    top: 0px;
+    background: #FAFAFA;
+    border-radius: 9px;
+  }
+  .pets-katrine{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 37.93%;
+    
+    background: url(pets-katrine.png);
+    border-radius: 9px 9px 0px 0px;
+  }
+  .Katrine{
+    position: absolute;
+    width: 74px;
+    height: 23px;
+    left: 98px;
+    top: 300px;
+    
+  }
+  .pets-card-title{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+    
+  }
+
+  .button_secondary{ 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 187px;
+    height: 52px;
+    left: 41.5px;
+    top: 353px;
+}
+.button_primary{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 45px;
+
+position: static;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 130%;
+letter-spacing: 0.06em;
+color: #292929;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+border: 2px solid #F1CDB3;
+box-sizing: border-box;
+border-radius: 100px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+background-color: #fff;
+}
+.button_primary:hover{
+    border: 2px solid #FFFFFF;
+    background-color: #CDCDCD;
+}
+
+.card2{
+    position: absolute;
+    width: 270px;
+    height: 435px;
+    left: 465px;
+    top: 0px;
+    
+    /* color-light-s */
+    
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+.pets-jennifer{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 37.93%;
+
+background: url(pets-jennifer\ \(1\).png);
+border-radius: 9px 9px 0px 0px;
+}
+.Jennifer{
+    position: absolute;
+width: 83px;
+height: 23px;
+left: 94px;
+top: 300px;
+}
+.card3{
+    position: absolute;
+    left: 68.75%;
+    right: 8.75%;
+    top: 0%;
+    bottom: 0%;
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+.Woody{
+    position: absolute;
+width: 68px;
+height: 23px;
+left: 101px;
+top: 300px;
+}
+.pets-woody{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 37.93%;
+
+background: url(pets-woody.png);
+border-radius: 9px 9px 0px 0px;
+}
+
+ 
+
+
+
   .button-gold {
     width: 207px;
     height: 52px;
