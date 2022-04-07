@@ -443,3 +443,134 @@ letter-spacing: 0.06em;
   background: url(/assets/images/pets-katrine\ \(2\).png);
   border-radius: 9px 9px 0px 0px;
 }
+.button_secondary1{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 187px;
+height: 52px;
+left: 41.5px;
+top: 353px;
+
+}
+.button_secondary2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: absolute;
+  width: 187px;
+  height: 52px;
+  left: 41.5px;
+  top: 353px;
+}
+.button_secondary3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: absolute;
+  width: 187px;
+  height: 52px;
+  left: 41.5px;
+  top: 353px;
+}
+.button_secondary4{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: absolute;
+  width: 187px;
+  height: 52px;
+  left: 41.5px;
+  top: 353px;
+  
+}
+.button_secondary5{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: absolute;
+  width: 187px;
+  height: 52px;
+  left: 41.5px;
+  top: 353px;
+}
+.button_secondary6{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: absolute;
+  width: 187px;
+  height: 52px;
+  left: 41.5px;
+  top: 353px;
+  
+}
+.button_secondary7{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: absolute;
+  width: 187px;
+  height: 52px;
+  left: 41.5px;
+  top: 353px;
+}
+.button_primary{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 45px;
+
+position: static;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* color-primary */
+
+border: 2px solid #F1CDB3;
+box-sizing: border-box;
+border-radius: 100px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+.button_paginator_active{
+  position: absolute;
+width: 52px;
+height: 52px;
+left: 574px;
+top: 1110px;
+}
+.button_paginator{
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* color-primary */
+
+background: #F1CDB3;
+border-radius: 100px;
+}
