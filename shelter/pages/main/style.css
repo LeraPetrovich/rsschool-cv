@@ -2076,3 +2076,51 @@ background: url(/assets/images/footer-puppy.png);
     }
     
   }
+  .Logo{
+    position: absolute;
+   width: 184px;
+   height: 60px;
+   left: -90px;
+   top: 0px;
+   }
+   .Title{
+    position: absolute;
+    width: 184px;
+    height: 35px;
+    left: 100px;
+    top: calc(50% - 35px/2 - 0px);
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #F1CDB3;
+   }
+   .Subtitile{
+    position: absolute;
+    width: 179px;
+    height: 15px;
+    left: 100px;
+    top: calc(50% - 15px/2 + 32px);
+    
+    /* logo_subtitle */
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0em;
+    
+    /* color-light-xl */
+    
+    color: #FFFFFF;
+    
+   }
