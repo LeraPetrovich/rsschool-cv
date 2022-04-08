@@ -613,7 +613,7 @@ order: 0;
 flex-grow: 0;
 margin: 0px 0px;
 }
-.botton_primary:hover{
+.button_primary:hover{
   background:#F1CDB3;
 }
 .button_paginator_active{
@@ -642,6 +642,9 @@ border: 2px solid #F1CDB3;
 box-sizing: border-box;
 border-radius: 100px;
 }
+.button_paginator01:hover{
+  background-color: #F1CDB3;
+} 
 .right{
 position: absolute;
 left: 36.54%;
@@ -672,6 +675,9 @@ color: #292929;
   box-sizing: border-box;
   border-radius: 100px;
 }
+.button_paginator02:hover{
+  background-color: #F1CDB3;
+} 
 .right2{
   position: absolute;
   left: 23.08%;
@@ -702,13 +708,13 @@ left: 0%;
 right: 0%;
 top: 0%;
 bottom: 0%;
-
-/* color-dark-s */
-
 border: 2px solid #CDCDCD;
 box-sizing: border-box;
 border-radius: 100px;
 }
+.button_paginator1:hover{
+  background-color: #F1CDB3;
+} 
 .left{
   position: absolute;
 left: 36.54%;
@@ -748,6 +754,9 @@ border: 2px solid #CDCDCD;
 box-sizing: border-box;
 border-radius: 100px;
 }
+.button_paginator2:hover{
+  background-color: #F1CDB3;
+} 
 .left2{
   position: absolute;
 left: 23.08%;
