@@ -814,25 +814,24 @@ background-color: #ecf0f1;
 }
 .HelpList{
   position: absolute;
-width: 1026px;
-height: 281px;
-left: 87px;
-top: 150px;
+  width: 1026px;
+  height: 281px;
+  left: 87px;
+  top: 150px;
 }
 .food{
   position: absolute;
-width: 82px;
-height: 113px;
-left: 0px;
-top: 0px;
+  width: 82px;
+  height: 113px;
+  left: -70px;
+  top: 0px;
 }
 .icon-pet-food{
   position: absolute;
-width: 60px;
-height: 60px;
-left: 11px;
-top: 0px;
-
+  width: 60px;
+  height: 60px;
+  left: 11px;
+  top: 0px;
 }
 .Vector {
   position: absolute;
@@ -844,33 +843,37 @@ background: url(Vector.svg);
 }
 .Textfood{
   position: absolute;
-width: 82px;
-height: 23px;
-left: 0px;
-top: 90px;
+  width: 82px;
+  height: 23px;
+  left: 0px;
+  top: 90px;
+  
+  /* h4 */
+  
   font-family: 'Georgia';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 115%;
-/* identical to box height, or 23px */
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-
-/* color-dark-l */
-
-color: #545454;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  /* identical to box height, or 23px */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  
+  /* color-dark-l */
+  
+  color: #545454;
 
 }
 .Transportation{
   position: absolute;
-width: 150px;
-height: 113px;
-left: 202px;
-top: 0px;
+  width: 150px;
+  height: 113px;
+  left: 380px;
+  top: 0px;
+  
 }
 .icon-transportation{
   position: absolute;
@@ -895,12 +898,12 @@ background: url(/assets/icons/transportation.svg);
   position: absolute;
   width: 150px;
   height: 23px;
-  left: 202px;
+  left: -235px;
   top: 90px;
 
   font-family: 'Georgia';
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;
 font-size: 20px;
 line-height: 115%;
 /* identical to box height, or 23px */
@@ -919,9 +922,8 @@ color: #545454;
   position: absolute;
   width: 60px;
   height: 113px;
-  left: 472px;
+  left: 480px;
   top: 0px;
-  
 }
 .icon-toys{
   position: absolute;
@@ -945,7 +947,7 @@ color: #545454;
   position: absolute;
   width: 46px;
   height: 23px;
-  left: 479px;
+  left: -5px;
   top: 90px;
   font-family: 'Georgia';
   font-style: normal;
@@ -968,7 +970,7 @@ color: #545454;
   position: absolute;
   width: 153px;
   height: 113px;
-  left: 652px;
+  left: 50px;
   top: 0px;
 }
 .icon-bowls{
@@ -1015,10 +1017,10 @@ color: #545454;
 
 .Shampoos{
   position: absolute;
-width: 101px;
-height: 113px;
-left: 925px;
-top: 0px;
+  width: 101px;
+  height: 113px;
+  left: 540px;
+  top: 0px;
 }
 .icon-shampoos{
   position: absolute;
@@ -1042,11 +1044,11 @@ background: url(/assets/icons/shampoos.svg)
   position: absolute;
 width: 101px;
 height: 23px;
-left: 925px;
+left: 460px;
 top: 90px;
   font-family: 'Georgia';
 font-style: normal;
-font-weight: 400;
+font-weight: 400px;
 font-size: 20px;
 line-height: 115%;
 /* identical to box height, or 23px */
@@ -1063,17 +1065,17 @@ color: #545454;
 
 .Vitamins{
   position: absolute;
-  width: 89px;
-  height: 113px;
-  left: 84px;
-  top: 168px;
+width: 89px;
+height: 113px;
+left: -10px;
+top: 20px;
 }
 
 .icon-vitamins{
   position: absolute;
   width: 60px;
   height: 60px;
-  left: calc(50% - 60px/2 - 385px);
+  left: 0px;
   top: 168px;
   
 }
@@ -1082,7 +1084,7 @@ color: #545454;
   position: absolute;
   width: 60px;
   height: 54.16px;
-  left: calc(50% - 60px/2);
+  left: 60px;
   top: calc(50% - 54.16px/2 + 0.08px);
   background: url(/pages/main/vitamins.svg);
 }
@@ -1090,7 +1092,7 @@ color: #545454;
   position: absolute;
   width: 89px;
   height: 23px;
-  left: 84px;
+  left: 50px;
   top: 258px;
   font-family: 'Georgia';
   font-style: normal;
@@ -1113,15 +1115,15 @@ color: #545454;
   position: absolute;
   width: 101px;
   height: 113px;
-  left: 293px;
-  top: 168px;
+  left: 50px;
+  top: 20px;
   
 }
-.con-medicines{
+.icon-medicines{
   position: absolute;
   width: 60px;
   height: 60px;
-  left: calc(50% - 60px/2 - 169px);
+  left: 275px;
   top: 168px;
 }
 .medicines{
@@ -1136,7 +1138,7 @@ color: #545454;
   position: absolute;
   width: 101px;
   height: 23px;
-  left: 293px;
+  left: 255px;
   top: 258px;
   font-family: 'Georgia';
   font-style: normal;
@@ -1156,10 +1158,11 @@ color: #545454;
 }
 .Collars{
   position: absolute;
-width: 165px;
-height: 113px;
-left: 514px;
-top: 168px;
+  width: 165px;
+  height: 113px;
+  left: 480px;
+  top: 20px;
+  
 }
 .icon-collars{
   position: absolute;
@@ -1202,8 +1205,9 @@ color: #545454;
   position: absolute;
   width: 143px;
   height: 113px;
-  left: 799px;
-  top: 168px;
+  left: 520px;
+  top: 20px;
+  
 }
 .icon-sleeping-area{
   position: absolute;
@@ -1224,7 +1228,7 @@ color: #545454;
   position: absolute;
   width: 143px;
   height: 23px;
-  left: 799px;
+  left: 355px;
   top: 258px;
   font-family: 'Georgia';
   font-style: normal;
