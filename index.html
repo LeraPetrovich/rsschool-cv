@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rsschol.cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    
+   
+</head>
+<body>
+  <header>
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+
+        <ul class="menu__box">
+            <li><a href="#Myself" class="menu__item">About Myself</a></li>
+            <li><a href="#Skills" class="menu__item">Skills and Proficiency</a></li>
+            <li><a href="#Code" class="menu__item">Code example</a></li>
+            <li><a href="#Projects" class="menu__item">My Projects</a></li>
+            <li><a href="#Education" class="menu__item">Education </a></li>
+            <li><a href="#Languages" class="menu__item">Languages</a></li> 
+            <li><a href="#Contact" class="menu__item">Contact information</a></li>
+          </ul>
+        </div>
+</header>
+<h1 class="center" align="center" >CV Petrovich Valeria</h1>
+    <img src="./nebo-oblaka-ozero-skala-kamni-trava.jpg" class="photo" > 
+<h2 class="title" id="Myself"> Briefly About Myself</h2>
+    <article>
+    <p>Hello, I'm Valeria
+        At the moment I am a 2nd-year student of the BSU Faculty of Radiophysics and Computer Technology. In the first year I studied the basics of C++. After studying C++, I became interested in web development.
+        I am a punctual and responsible person. I always do the right job on time. I quickly find a common language with the team and have intermediate interpersonal skills. I like to occupy my time with self-development. Working in a remote format will give me the opportunity to do the right job regardless of the place and time.</p>
+    </article>
+<article>
+  <h2 class="title2">
+    Skills and Proficiency:
+</h2>
+<p>
+    <ul class="skills" id="Skills">
+        <li>C++</li>
+        <li>Java</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+    </ul>
+</p>
+</article>
+<article>
+  <h2 class="title3" id="Code"> Code example</h2>
+  <p>Task: The input numbers are n and m. Print the multiplication table n * m</p>
+  <pre><code class="code">
+      import java.util.Scanner;
+
+class MyNumber {
+public static void main(String[] args) {
+
+Scanner in = new Scanner(System.in);
+int n = in.nextInt();
+int m= in.nextInt();
+int gr1[][] = new int [n+1][m+1];
+String spase;
+for(int i=1; i<=n;i++){
+spase="";
+for(int j=1;j<=m;j++){
+// int gr1[i][j]=in.nextInt;
+gr1[i][j]=j*i;
+
+System.out.print(spase+gr1[i][j]);
+spase=" ";
+
+}
+System.out.println();
+}}}
+  </code></pre>
+
+</article>
+<article>
+    <h2 class="title4" id="Projects">My Projects</h2>
+    <p>I made these projects while completing the zero stage of the JavaScript course from rsshool.</p>
+    <ul class="projects">
+        <li class="liimg"><a href="https://rolling-scopes-school.github.io/lerapetrovich-JSFEPRESCHOOL/ecosounds/"><img src="./ecosounds.PNG" class="mypr"></a></li>
+        <li class="liimg"><a href="https://goofy-noyce-1066c5.netlify.app/"><img src="./memorygame.PNG" class="mypr"></a></li>
+        <li class="liimg"><a href="https://zen-wescoff-ca73b5.netlify.app"><img src="./randomjokes.PNG" class="mypr"></a></li>
+    </ul>
+</article>
+<article>
+  <h2 class="title4" id="Education">Education</h2>
+  <p class="education">Graduated from the Mozyr State Regional Lyceum in 2020. Also this year she entered the Faculty of Radiophysics and Computer Technology.
+      Now I am studying frontend at RS school.</p>
+
+</article>
+<article>
+  <h2 class="title5" id="Languages">Languages</h2>
+  <p>
+      <ul class="language">
+          <li>Russian(native)</li>
+          <li>Belarusian(native)</li>
+          <li>English(A2)</li>
+      </ul>
+  </p>
+
+</article>
+<article>
+  <h1 class="title6" id="Contact">Contact information</h1>
+  <ul class="contact">
+      <li><a href="https://github.com/lerapetrovich"><img src="./github-logo_icon-icons.com_73546.svg"></a></li>
+      <li><a href="https://instagram.com/leradymaet?utm_medium=copy_link"><img src="./instagram_f_icon-icons.com_65485.svg"></a></li>
+      <li><a href="mailto:lerapetrovic8@gmail.com"><img src="./email_icon_176156.svg"></a></li>
+  </ul>
+</article>
+
+</body>
+</html>
