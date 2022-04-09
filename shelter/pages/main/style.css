@@ -790,7 +790,7 @@ background-color: #ecf0f1;
   left: calc(50% - 1200px/2);
   top: 80px;
 }
-.Heading{
+.Heading00{
   position: absolute;
   width: 308px;
   height: 90px;
@@ -1286,12 +1286,12 @@ height: 282px;
 left: 535px;
 top: 0px;
 }
-.Heading{
+.Heading000{
   position: absolute;
 width: 300px;
 height: 90px;
 left: 0px;
-top: 0px;
+top: -30px;
 }
 .textDonat{
   font-family: 'Georgia';
@@ -1357,7 +1357,7 @@ margin: 10px 0px;
 width: 30px;
 height: 23px;
 left: 15px;
-top: 10px;
+top: 15px;
 background: url(/assets/icons/credit-card.svg);
 }
 .number{
@@ -1365,24 +1365,17 @@ background: url(/assets/icons/credit-card.svg);
 width: 274px;
 height: 23px;
 left: 60px;
-top: -7px;
-
-/* h4 */
-
+top: 15px;
 font-family: 'Georgia';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 115%;
-/* identical to box height, or 23px */
-
 display: flex;
 align-items: center;
-letter-spacing: 0.06em;
-
-/* color-dark-l */
-
+letter-spacing: 0.02em;
 color: #545454;
+text-decoration: none;
 }
 .textforredir{
   position: absolute;
@@ -1474,12 +1467,15 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 115%;
-
+text-decoration: none;
 
 letter-spacing: 0.06em;
 
 
 color: #F1CDB3;
+}
+.Mailtext:hover{
+  color: #ecf0f1;
 }
 .Phone{
   position: absolute;
@@ -1495,6 +1491,8 @@ height: 32px;
 left: calc(50% - 40px/2 - 119px);
 top: 27px;
 background: url(/assets/icons/phone.svg);
+text-decoration: none;
+
 }
 .Phonetext{
   position: absolute;
@@ -1509,6 +1507,10 @@ background: url(/assets/icons/phone.svg);
   line-height: 115%;
   letter-spacing: 0.06em;
   color: #F1CDB3;
+  text-decoration: none;
+}
+.Phonetext:hover{
+  color: #ecf0f1;
 }
 .Locations{
   position: absolute;
@@ -1528,7 +1530,7 @@ top: 16px;
   font-weight: 400;
   font-size: 35px;
   line-height: 130%;
-  /* or 45px */
+  text-decoration: none;
   
   letter-spacing: 0.06em;
   
@@ -1572,13 +1574,16 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 115%;
-/* or 23px */
+text-decoration: none;
 
 letter-spacing: 0.06em;
 
 /* color-primary */
 
 color: #F1CDB3;
+}
+.Bostontext:hover{
+  color: #ecf0f1;
 }
 .London{
   position: absolute;
@@ -1618,9 +1623,12 @@ line-height: 115%;
 
 letter-spacing: 0.06em;
 
-/* color-primary */
+text-decoration: none;
 
 color: #F1CDB3;
+}
+.londontext:hover{
+color: #ecf0f1;
 }
 
 .footer-puppy {
@@ -1632,6 +1640,13 @@ top: 0px;
 
 background: url(/assets/images/footer-puppy.png);
 }
+
+
+
+
+
+
+
 
 
   .button-gold {

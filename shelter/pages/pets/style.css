@@ -288,6 +288,9 @@ top: 15px;
 background: #FAFAFA;
 border-radius: 9px;
 }
+.card:hover{
+  border: 2px solid grey;
+}
 .pets-katrine{
     position: absolute;
 left: 0%;
@@ -443,6 +446,27 @@ margin: 0px 0px;
   
   background: #FAFAFA;
   border-radius: 9px;
+}
+.card1:hover{
+  border: 2px solid grey;
+}
+.card2:hover{
+  border: 2px solid grey;
+}
+.card3:hover{
+  border: 2px solid grey;
+}
+.card4:hover{
+  border: 2px solid grey;
+}
+.card5:hover{
+  border: 2px solid grey;
+}
+.card6:hover{
+  border: 2px solid grey;
+}
+.card7:hover{
+  border: 2px solid grey;
 }
 .pets-jennifer{
   position: absolute;
@@ -872,7 +896,7 @@ line-height: 115%;
 
 
 letter-spacing: 0.06em;
-
+text-decoration: none;
 
 color: #F1CDB3;
 }
@@ -904,6 +928,7 @@ background: url(/assets/icons/phone.svg);
   line-height: 115%;
   letter-spacing: 0.06em;
   color: #F1CDB3;
+  text-decoration: none;
 }
 .Locations{
   position: absolute;
@@ -967,7 +992,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 115%;
-/* or 23px */
+text-decoration: none;
 
 letter-spacing: 0.06em;
 
@@ -1013,11 +1038,22 @@ line-height: 115%;
 
 letter-spacing: 0.06em;
 
-/* color-primary */
+text-decoration: none;
 
 color: #F1CDB3;
 }
-
+.londontext:hover{
+  color: #FFFFFF;
+}
+.Bostontext:hover{
+  color: #FFFFFF;
+}
+.Phonetext:hover{
+  color: #FFFFFF;
+}
+.Mailtext:hover{
+  color: #FFFFFF;
+}
 .footer-puppy {
   position: absolute;
 width: 300px;
