@@ -613,7 +613,7 @@ height: 27px;
     
   }
 
-  .button_secondary{ 
+  .button_secondary0{ 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -625,41 +625,60 @@ height: 27px;
     left: 41.5px;
     top: 353px;
 }
-.button_primary{
-    display: flex;
+.button_secondary1{ 
+  display: flex;
 flex-direction: column;
-align-items: center;
-padding: 15px 45px;
+align-items: flex-start;
+padding: 0px;
 
-position: static;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-font-family: 'Georgia';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 130%;
-letter-spacing: 0.06em;
-color: #292929;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 10px 0px;
-border: 2px solid #F1CDB3;
-box-sizing: border-box;
-border-radius: 100px;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 0px;
-background-color: #fff;
+position: absolute;
+width: 187px;
+height: 52px;
+left: 41.5px;
+top: 353px;
+}
+.button_secondary2{ 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: absolute;
+  width: 187px;
+  height: 52px;
+  left: 41.5px;
+  top: 353px;
+}
+.button_primary{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 45px;
+  
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  
+  /* color-primary */
+  
+  border: 2px solid #F1CDB3;
+  box-sizing: border-box;
+  border-radius: 100px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
 }
 .button_primary:hover{
-    border: 2px solid #FFFFFF;
-    background-color: #F1CDB3;
+  background:#F1CDB3;
 }
+
+
 
 .card2{
     position: absolute;
@@ -716,26 +735,30 @@ bottom: 37.93%;
 background: url(pets-woody.png);
 border-radius: 9px 9px 0px 0px;
 }
+
+
 .button_primary3{
-    display: flex;
-flex-direction: column;
-align-items: center;
-padding: 15px 45px;
-
-position: absolute;
-width: 261px;
-height: 52px;
-left: 470px;
-top: 645px;
-
-/* color-primary */
-
-background: #F1CDB3;
-border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 45px;
+  
+  position: absolute;
+  width: 261px;
+  height: 52px;
+  left: 470px;
+  top: 645px;
+  
+  /* color-primary */
+  
+  background: #F1CDB3;
+  border-radius: 100px;
 }
 .button_primary3:hover{
-    background:#CDCDCD;
+background-color: #ecf0f1;
 }
+
+
 
  
 
@@ -767,8 +790,6 @@ border-radius: 100px;
   height: 90px;
   left: 446px;
   top: 0px;
-}
-.how{
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
